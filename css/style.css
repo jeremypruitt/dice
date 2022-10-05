@@ -175,3 +175,23 @@ body {
     color: #fff;
     background: #b33951;
 }
+
+/*
+    Reset Button styles
+*/
+#reset {
+    cursor: pointer;
+    color: #b33951;
+    margin-top: 10px;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font: 700 12px 'Montserrat';
+    color: #0c0c0c;
+    border: 2px solid #0c0c0c;
+    transition: .4s;
+}
+
+#reset:hover {
+    color: #fff;
+    background: #0c0c0c;
+}
